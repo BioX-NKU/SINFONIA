@@ -42,10 +42,11 @@ def spatially_variable_genes(adata, mode='moran_geary', n_top_genes=2000, subset
     -------
     adata
         AnnData object with identified spatially variable genes and additional fields:
-        * `adata.var['spatially_variable']`: boolean indicator of spatially variable genes.
-        * `adata.uns['svg']`: mode used to identify spatially variable genes if `inplace=True`.
-        * `adata.var['moranI']`: Moran’s I scores if `inplace=True` and `mode='moran_geary'` or `mode='moran'`.
-        * `adata.var['gearyC']`: rescaled Geary’s C scores if `inplace=True` and `mode='moran_geary'` or `mode='geary'`.
+
+        - `adata.var['spatially_variable']`: boolean indicator of spatially variable genes.
+        - `adata.uns['svg']`: mode used to identify spatially variable genes if `inplace=True`.
+        - `adata.var['moranI']`: Moran’s I scores if `inplace=True` and `mode='moran_geary'` or `mode='moran'`.
+        - `adata.var['gearyC']`: rescaled Geary’s C scores if `inplace=True` and `mode='moran_geary'` or `mode='geary'`.
 
     """
 
