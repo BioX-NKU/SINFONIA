@@ -58,6 +58,7 @@ def mean_average_precision(embedding: np.ndarray, labels: np.ndarray, n_neighbor
     **kwargs
         Additional keyword arguments are passed to
         :class:`sklearn.neighbors.NearestNeighbors`
+        
     Returns
     -------
     map
@@ -94,6 +95,7 @@ def mean_cross_validation_accuracy(embedding, labels, Kfold=5):
     **kwargs
         Additional keyword arguments are passed to
         :class:`sklearn.neighbors.NearestNeighbors`
+
     Returns
     -------
     MCVA
