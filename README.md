@@ -1,10 +1,10 @@
 [![PyPI](https://img.shields.io/pypi/v/sinfonia.svg)](https://pypi.org/project/sinfonia)
-[![Documentation Status](https://readthedocs.org/projects/sinfonia/badge/?version=latest)](https://sinfonia.readthedocs.io/en/latest/?badge=stable)
+[![Documentation Status](https://readthedocs.org/projects/sinfonia-svg/badge/?version=latest)](https://sinfonia-svg.readthedocs.io/en/latest/?badge=stable)
 [![Downloads](https://pepy.tech/badge/sinfonia)](https://pepy.tech/project/sinfonia)
 # SINFONIA: scalable identification of spatially variable genes for deciphering spatial domains
 
 
-### Find more details on [the Documentation of SINFONIA](https://sinfonia.readthedocs.io/en/latest/index.html).
+### Find more details on [the Documentation of SINFONIA](https://sinfonia-svg.readthedocs.io/en/latest/index.html).
 
 ## Installation
 SINFONIA is available on PyPI [here](https://pypi.org/project/sinfonia/) and can be installed via
@@ -46,4 +46,4 @@ SINFONIA can also be seamlessly integrated with [SCANPY](https://scanpy.readthed
 	adata = sinfonia.spatially_variable_genes(adata)
 ```
 ### Documentation notebook
-We provide a [quick-start notebook](https://github.com/BioX-NKU/SINFONIA/blob/main/docs/source/10X_DLPFC_151507.ipynb) which describes the fundamentals in detail and reproduces the results of SINFONIA. We also provide rich [documentation](https://sinfonia.readthedocs.io/en/latest/index.html) in the form of functional application programming interface documentation, tutorials and example workflows. 
+We provide a [quick-start notebook](https://github.com/BioX-NKU/SINFONIA/blob/main/docs/source/10X_DLPFC_151507.ipynb) which describes the fundamentals in detail and reproduces the results of SINFONIA. We also provide rich [documentation](https://sinfonia-svg.readthedocs.io/en/latest/index.html) in the form of functional application programming interface documentation, tutorials and example workflows. 
