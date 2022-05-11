@@ -46,4 +46,4 @@ SINFONIA can also be seamlessly integrated with [SCANPY](https://scanpy.readthed
 	adata = sinfonia.spatially_variable_genes(adata)
 ```
 ### Documentation notebook
-We provide a [quick-start notebook](https://github.com/BioX-NKU/SINFONIA/blob/main/docs/source/tutorial/10X_DLPFC_151507.ipynb) which describes the fundamentals in detail and reproduces the results of SINFONIA. We also provide rich [documentation](https://sinfonia.readthedocs.io/en/latest/index.html) in the form of functional application programming interface documentation, tutorials and example workflows. 
+We provide a [quick-start notebook](https://github.com/BioX-NKU/SINFONIA/blob/main/docs/source/10X_DLPFC_151507.ipynb) which describes the fundamentals in detail and reproduces the results of SINFONIA. We also provide rich [documentation](https://sinfonia.readthedocs.io/en/latest/index.html) in the form of functional application programming interface documentation, tutorials and example workflows. 
