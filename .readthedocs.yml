@@ -1,6 +1,5 @@
+version: 0.0.2
 
-sphinx:
-configuration: docs/source/conf.py
 
 formats: []
 
