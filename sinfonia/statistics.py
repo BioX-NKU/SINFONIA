@@ -34,7 +34,7 @@ def spatially_variable_genes(adata, mode='moran_geary', n_top_genes=2000, subset
     n_neighbors
         Number of nearest neighbors used to construct the spatial neighbor graph. By default, n_neighbors=30.
     layer
-        If provided, use `adata.layers[layer]` for expression values instead of `adata.X`. By default, layer=None.
+        If provided, use `adata.layers[layer]` for expression values instead of `adata.X`. Note that SINFONIA expects logarithmized data. By default, layer=None.
     seed
         Random seed for reproducibility. By default, seed=None.
         
@@ -119,7 +119,6 @@ def spatially_variable_genes(adata, mode='moran_geary', n_top_genes=2000, subset
     if inplace:
         adata.uns['svg'] = {'mode': mode}
         if mode=='moran_geary':
-            moran_index, geary_index = _moran_geary(exp_mtx, W.data, W.row, W.col)
             adata.var['moranI'] = moran_index
             adata.var['gearyC'] = geary_index
         elif mode=='moran':
