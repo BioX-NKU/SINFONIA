@@ -11,16 +11,16 @@ Output
 ^^^^^^^^
 - **adata**: AnnData object with identified spatially variable genes and additional fields.
 
-SINFONIA can also be seamlessly integrated with `SCANPY <https://scanpy.readthedocs.io/en/stable/>`_, a widely-used Python library for single-cell data analysis.::
+SINFONIA can also be seamlessly integrated with `SCANPY <https://scanpy.readthedocs.io/en/stable/>`_, a widely-used Python library for single-cell data analysis::
 
-import scanpy as sc
-import sinfonia
-# Load the spatial transcriptomic data as an AnnData object (adata)
-# Normalize and logarithmize if the data contains raw counts
-sc.pp.normalize_total(adata)
-sc.pp.log1p(adata)
-# Run SINFONIA
-adata = sinfonia.spatially_variable_genes(adata)
+    import scanpy as sc
+    import sinfonia
+    # Load the spatial transcriptomic data as an AnnData object (adata)
+    # Normalize and logarithmize if the data contains raw counts
+    sc.pp.normalize_total(adata)
+    sc.pp.log1p(adata)
+    # Run SINFONIA
+    adata = sinfonia.spatially_variable_genes(adata)
 
 
 AnnData
