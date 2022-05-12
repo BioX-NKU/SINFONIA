@@ -31,6 +31,7 @@ author = 'BioX-NKU'
 # ones.
 extensions = ['sphinx.ext.autosummary',
     'sphinx_autodoc_typehints',
+    'sphinx.ext.napoleon',
     'nbsphinx'
 ]
 
