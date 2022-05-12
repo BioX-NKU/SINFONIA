@@ -6,10 +6,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="sinfonia",
-    version="0.0.2",
+    version="0.0.3",
     keywords=("pip", "sinfonia"),
     description="SINFONIA: scalable identification of spatially variable genes for deciphering spatial domains",
-    long_description="SINFONIA provides an effective and efficient way to identify spatially variable genes for deciphering spatial domains. We provide documentation in the form of functional application programming interface documentation, tutorials and example workflows at https://sinfonia.readthedocs.io/en/latest/index.html. All SINFONIA wheels distributed on PyPI are MIT licensed.",
+    long_description="SINFONIA provides an effective and efficient way to identify spatially variable genes for deciphering spatial domains. We provide documentation in the form of functional application programming interface documentation, tutorials and example workflows at https://sinfonia-svg.readthedocs.io/en/latest/index.html. All SINFONIA wheels distributed on PyPI are MIT licensed.",
     license="MIT Licence",
     url="https://github.com/BioX-NKU/SINFONIA",
     author="Shengquan Chen",
