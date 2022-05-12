@@ -43,8 +43,8 @@ def get_N_clusters(adata, n_cluster, cluster_method='louvain', range_min=0, rang
     adata
         AnnData object with clustering assignments in `adata.obs`:
 
-        - `adata.obs['louvain']`: Louvain clustering assignments if `cluster_method='louvain'`.
-        - `adata.obs['leiden']`: Leiden clustering assignments if `cluster_method='leiden'`.
+        - `adata.obs['louvain']` - Louvain clustering assignments if `cluster_method='louvain'`.
+        - `adata.obs['leiden']` - Leiden clustering assignments if `cluster_method='leiden'`.
 
     """ 
     this_step = 0

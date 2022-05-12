@@ -90,11 +90,8 @@ def mean_cross_validation_accuracy(embedding, labels, Kfold=5):
         Low-dimensional representation of spots.
     labels
         Ground-truth domain labels.
-    n_neighbors
-        Number of nearest neighbors used to evaluate mean average precision. By default, n_neighbors=30.
-    **kwargs
-        Additional keyword arguments are passed to
-        :class:`sklearn.neighbors.NearestNeighbors`
+    Kfold
+        Number of folds for cross-validation. By default, Kfold=5.
 
     Returns
     -------
