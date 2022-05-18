@@ -3,6 +3,9 @@
 [![Downloads](https://pepy.tech/badge/sinfonia)](https://pepy.tech/project/sinfonia)
 # SINFONIA: scalable identification of spatially variable genes for deciphering spatial domains
 
+<div align=center>
+<img src = "docs/source/logo.png" width = 65% height = 65%>
+</div>  
 
 ### Find more details on [the Documentation of SINFONIA](https://sinfonia-svg.readthedocs.io/en/latest/index.html).
 
